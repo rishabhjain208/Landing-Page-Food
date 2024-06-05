@@ -1,0 +1,88 @@
+.order .row {
+    padding: 2rem;
+    box-shadow: 0 0.5 1rem rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.order .row .image {
+    flex: 1 1 30rem;
+}
+
+.order .row .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.order-form {
+    flex: 1 1 20rem;
+    padding: 1rem;
+    background: linear-gradient(to left, #c7eef5, #c3a9ff);
+    border-radius: 5px;
+}
+
+.text {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.inputBox label {
+    font-size: 2rem;
+    color: #888;
+    text-shadow: 0 1px 2px #fff;
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+
+.inputBox input {
+    border: 1px solid #fff;
+    width: 50rem;
+    padding: 1rem 2rem;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.inputBox p {
+    color: red;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.inputBox input[type='text'] {
+    text-transform: capitalize;
+}
+
+.inputBox input[type='email'] {
+    text-transform: lowercase;
+}
+
+@media (max-width: 1270px) {
+    .inputBox input {
+        width: 30rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .inputBox input {
+        width: 30rem;
+    }
+}
